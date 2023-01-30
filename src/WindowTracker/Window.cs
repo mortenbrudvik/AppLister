@@ -18,6 +18,16 @@ public class Window
     public bool IsSplashScreen => ClassName == "MsoSplash";
     public string ClassName => User32.GetClassName(_handle);
     public bool IsMinimized => User32.IsIconic(_handle);
+    
+    public string ProcessName => TryCatch(() => System.Diagnostics.Process.GetProcessById(ProcessId).ProcessName.Trim());
+    public int ProcessId
+    {
+        get
+        {
+            User32.GetWindowThreadProcessId(_handle, out var processId);
+            return processId;
+        }
+    }
 
     public bool IsProcessable()
     {

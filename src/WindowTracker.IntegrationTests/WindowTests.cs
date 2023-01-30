@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using TestKit;
+using Kassei.TestKit;
 using Xunit.Abstractions;
 
 namespace WindowTracker.IntegrationTests;
@@ -9,8 +9,8 @@ public class WindowTests : TestContextBase
     [Fact]
     public void Test1()
     {
-        var windows = Window.GetWindows().Where(w => w is {IsStandard: true, IsPopup: false}).ToList();
-        
+        var windows = Window.GetApplicationWindows().ToList();
+
         windows.Log().Should().NotBeEmpty();
     }
 
