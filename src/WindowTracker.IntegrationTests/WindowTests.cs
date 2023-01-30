@@ -9,7 +9,7 @@ public class WindowTests : TestContextBase
     [Fact]
     public void Test1()
     {
-        var windows = Window.GetWindows().ToList();
+        var windows = Window.GetWindows().Where(w => w is {IsStandard: true, IsPopup: false}).ToList();
         
         windows.Log().Should().NotBeEmpty();
     }
