@@ -1,7 +1,4 @@
-﻿using Microsoft.Plugin.Program;
-using Microsoft.Plugin.Program.Programs;
-
-namespace ApplicationTracker.IntegrationTests;
+﻿namespace ApplicationTracker.IntegrationTests;
 
 public class Win32ProgramTests
 {

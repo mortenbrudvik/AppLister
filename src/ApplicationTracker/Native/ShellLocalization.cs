@@ -1,12 +1,12 @@
 ﻿// Copyright (c) Microsoft Corporation
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
-using System;
+
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Wox.Plugin.Common
+namespace ApplicationTracker.Native
 {
     /// <summary>
     /// Class to get localized name of shell items like 'My computer'. The localization is based on the 'windows display language'.

@@ -8,6 +8,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Xml.Linq;
 using ApplicationTracker.Native;
+using ApplicationTracker.Utils;
 using Microsoft.VisualBasic.Logging;
 
 namespace ApplicationTracker

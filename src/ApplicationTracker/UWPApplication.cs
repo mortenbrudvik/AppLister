@@ -16,7 +16,6 @@ using System.Windows.Media.Imaging;
 using System.Xml;
 using ApplicationTracker.Native;
 using ApplicationTracker.Utils;
-using Microsoft.Plugin.Program.Programs.ApplicationActivationHelper;
 using Color = System.Windows.Media.Color;
 using ColorConverter = System.Windows.Media.ColorConverter;
 using PackageVersion = ApplicationTracker.UWP.PackageVersion;

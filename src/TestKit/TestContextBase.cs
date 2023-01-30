@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 using Ardalis.GuardClauses;
 
-namespace ApplicationTracker.IntegrationTests;
+namespace TestKit;
 
 /// <summary>
 /// Wrapper class for <see cref="XunitContext"/> that implements <see cref="IDisposable"/>.

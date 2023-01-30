@@ -2,16 +2,12 @@
 // The Microsoft Corporation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using System;
-using System.ComponentModel;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 using Microsoft.Win32.SafeHandles;
-using Windows.Storage.Streams;
-using Wox.Plugin;
 
-namespace Microsoft.Plugin.Program.Utils
+namespace ApplicationTracker.Native
 {
     /// <summary>
     /// Provides access to NTFS reparse points in .Net.

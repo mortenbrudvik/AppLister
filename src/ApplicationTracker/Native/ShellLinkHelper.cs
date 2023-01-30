@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using Accessibility;
-using ApplicationTracker;
+using ApplicationTracker.Utils;
 
-namespace Microsoft.Plugin.Program.Programs
+namespace ApplicationTracker.Native
 {
     public class ShellLinkHelper : IShellLinkHelper
     {

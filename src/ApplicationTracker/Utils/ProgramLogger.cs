@@ -1,4 +1,4 @@
-﻿namespace ApplicationTracker;
+﻿namespace ApplicationTracker.Utils;
 
 public static class ProgramLogger
 {

@@ -4,7 +4,7 @@
 
 using System.Diagnostics;
 
-namespace Wox.Infrastructure.FileSystemHelper
+namespace ApplicationTracker.FileSystemHelper
 {
     public interface IFileVersionInfoWrapper
     {

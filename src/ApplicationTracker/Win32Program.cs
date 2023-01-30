@@ -8,15 +8,13 @@ using System.IO.Abstractions;
 using System.Reflection;
 using System.Security;
 using System.Text.RegularExpressions;
-using ApplicationTracker;
+using ApplicationTracker.FileSystemHelper;
+using ApplicationTracker.Native;
 using ApplicationTracker.Utils;
-using Microsoft.Plugin.Program.Utils;
 using Microsoft.Win32;
-using Wox.Infrastructure.FileSystemHelper;
-using Wox.Plugin.Common;
-using DirectoryWrapper = Wox.Infrastructure.FileSystemHelper.DirectoryWrapper;
+using DirectoryWrapper = ApplicationTracker.FileSystemHelper.DirectoryWrapper;
 
-namespace Microsoft.Plugin.Program.Programs;
+namespace ApplicationTracker;
 
 [Serializable]
 public class Win32Program : IProgram
